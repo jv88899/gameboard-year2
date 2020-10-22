@@ -204,7 +204,7 @@ const Transaction017 = ({ companyName }) => (
             </li>
             <li>
               <Link
-                to="/017"
+                to="/018"
                 style={{
                   color: "inherit",
                   cursor: "default",
