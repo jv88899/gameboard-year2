@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Transaction001 from "./transactions/Transaction001";
 import Transaction002 from "./transactions/Transaction002";
 import Transaction003 from "./transactions/Transaction003";
+import Transaction004 from "./transactions/Transaction004";
 
 const Router = () => {
   const companyName = "Medica";
