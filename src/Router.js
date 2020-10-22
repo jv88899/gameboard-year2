@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Transaction001 from './transactions/Original'
+import Transaction001 from './transactions/Transaction001'
 
 const Router = () => {
   const companyName = "Medica"
