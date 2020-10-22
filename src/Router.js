@@ -22,6 +22,9 @@ const Router = () => {
         <Route path="/003" exact>
           <Transaction003 companyName={companyName} />
         </Route>
+        <Route path="/004" exact>
+          <Transaction004 companyName={companyName} />
+        </Route>
       </Switch>
     </BrowserRouter>
   );
