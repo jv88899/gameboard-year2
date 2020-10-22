@@ -14,11 +14,7 @@ const Transaction = ({
     <Link
       to={`/${route}`}
       key={stepNumber}
-      style={{
-        color: `inherit`,
-        textDecoration: `none`,
-        cursor: `default`
-      }}
+      style={{ color: `inherit`, textDecoration: `none`, cursor: `default` }}
     >
       <div
         className={
@@ -26,7 +22,11 @@ const Transaction = ({
             ? "transaction-items-headers transaction-active"
             : "transaction-items-headers"
         }
-        style={highlightCashTransactions && isCashTransaction ? {backgroundColor: `#9be6b3`} : null}
+        style={
+          highlightCashTransactions && isCashTransaction
+            ? { backgroundColor: `#9be6b3` }
+            : null
+        }
       >
         <span className="transaction-items-header-number">{stepNumber}</span>
         <span className="transaction-items-header-description">
