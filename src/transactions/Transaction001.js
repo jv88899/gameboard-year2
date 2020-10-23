@@ -130,7 +130,7 @@ const Transaction001 = ({ companyName }) => (
                         to="/002"
                         style={{
                           color: "inherit",
-                          cursor: "none",
+                          cursor: "default",
                           textDecoration: "none"
                         }}
                       >

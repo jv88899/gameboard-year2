@@ -121,8 +121,8 @@ const Transaction005 = ({ companyName }) => (
                       <Link
                         to="/006"
                         style={{
-                          color: "none",
-                          cursor: "inherit",
+                          color: "inherit",
+                          cursor: "default",
                           textDecoration: "none"
                         }}
                       >
