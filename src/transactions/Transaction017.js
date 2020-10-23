@@ -153,7 +153,7 @@ const Transaction017 = ({ companyName }) => (
                         }}
                       >
                         <span className="item-name blue">Claims Payable</span>
-                        <span className="item-total">15</span>
+                        <span className="item-total">2</span>
                       </Link>
                     </li>
                     <li>
