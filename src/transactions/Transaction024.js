@@ -203,7 +203,7 @@ const Transaction024 = ({ companyName }) => (
                 style={{
                   color: "inherit",
                   cursor: "default",
-                  textContent: "none"
+                  textDecoration: "none"
                 }}
               >
                 <span className="item-name red">Pharmacies</span>
