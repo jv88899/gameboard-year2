@@ -232,7 +232,8 @@ h5 {
 .income-statement ul li a,
 .balance-sheet ul li a,
 .operating-wrapper-inner ul li a,
-.investing-inner-list ul li a {
+.investing-inner-list ul li a,
+.financing-inner-list li a {
   align-items: center;
   display: flex;
   justify-content: space-between;
