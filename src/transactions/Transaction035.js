@@ -23,7 +23,7 @@ const Transaction035 = ({ companyName }) => (
           <h5 className="green">
             Wells Fargo <br /> Bank
           </h5>
-          <span className="item-total">0</span>
+          <span className="item-total test-active">0</span>
         </div>
         <div className="customer-wrapper-us-bank">
           <h5 className="green">Us Bank</h5>
@@ -123,7 +123,7 @@ const Transaction035 = ({ companyName }) => (
                         style={{
                           color: "inherit",
                           cursor: "default",
-                          textDecoration: "none"
+                          textDecoration: "none",
                         }}
                       >
                         <span className="item-name green">Cash</span>
@@ -246,7 +246,7 @@ const Transaction035 = ({ companyName }) => (
           <ul className="financing-inner-list">
             <li>
               <span className="item-name red">Wells Fargo Bank</span>
-              <span className="item-total test-active">0</span>
+              <span className="item-total">0</span>
             </li>
           </ul>
         </div>
