@@ -212,7 +212,7 @@ const Transaction014 = ({ companyName }) => (
             </li>
             <li>
               <span className="item-name red">Medical Providers</span>
-              <span className="item-total">4</span>
+              <span className="item-total test-active">4</span>
             </li>
             <li>
               <span className="item-name red">Employees</span>

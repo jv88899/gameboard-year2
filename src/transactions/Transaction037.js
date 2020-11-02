@@ -180,7 +180,7 @@ const Transaction037 = ({ companyName }) => (
                     </li>
                     <li>
                       <span className="item-name blue">Loan Payable</span>
-                      <span className="item-total">5</span>
+                      <span className="item-total test-active">5</span>
                     </li>
                     <li>
                       <span className="item-name blue">Unearned Premiums</span>

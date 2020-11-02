@@ -199,7 +199,7 @@ const Transaction025 = ({ companyName }) => (
           <ul className="operating-inner-list">
             <li>
               <span className="item-name red">Pharmacies</span>
-              <span className="item-total">2</span>
+              <span className="item-total test-active">2</span>
             </li>
             <li>
               <Link

@@ -246,7 +246,7 @@ const Transaction035 = ({ companyName }) => (
           <ul className="financing-inner-list">
             <li>
               <span className="item-name red">Wells Fargo Bank</span>
-              <span className="item-total">0</span>
+              <span className="item-total test-active">0</span>
             </li>
           </ul>
         </div>

@@ -169,7 +169,7 @@ const Transaction031 = ({ companyName }) => (
                         }}
                       >
                         <span className="item-name blue">Accounts Payable</span>
-                        <span className="item-total">2</span>
+                        <span className="item-total test-active">2</span>
                       </Link>
                     </li>
                     <li>
