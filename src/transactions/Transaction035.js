@@ -26,7 +26,7 @@ const Transaction035 = ({ companyName }) => (
           <span className="item-total test-active">0</span>
         </div>
         <div className="customer-wrapper-us-bank">
-          <h5 className="green">Us Bank</h5>
+          <h5 className="green">US Bank</h5>
           <span className="item-total">4</span>
         </div>
       </div>
