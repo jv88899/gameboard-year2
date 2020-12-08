@@ -143,9 +143,9 @@ const Transaction022 = ({ companyName }) => (
                 <div>
                   <h5>Liabilities</h5>
                   <ul className="balance-sheet-liabilities">
-                    <li>
+                    <li><Link to='/023' style={{color: 'inherit', cursor: 'default', textDecoration: 'none'}}>
                       <span className="item-name blue">Claims Payable</span>
-                      <span className="item-total">10</span>
+                      <span className="item-total">10</span></Link>
                     </li>
                     <li>
                       <span className="item-name blue">IBNR</span>
