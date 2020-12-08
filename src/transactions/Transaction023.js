@@ -4,7 +4,7 @@ import TransactionList from "../TransactionList";
 
 const Transaction023 = ({ companyName }) => (
   <>
-    <TransactionList activeStep={`009`} />
+    <TransactionList activeStep={`008`} />
     <div className="board-wrapper">
       {/* customer section */}
       <div className="customer-wrapper">
@@ -69,11 +69,11 @@ const Transaction023 = ({ companyName }) => (
               </li>
               <li>
                 <span className="item-name red">Pharmacy Expense</span>
-                <span className="item-total">2</span>
+                <span className="item-total">6</span>
               </li>
               <li>
                 <span className="item-name red">Medical Expense</span>
-                <span className="item-total">18</span>
+                <span className="item-total">14</span>
               </li>
               <li>
                 <span className="item-name red">Administrative Expense</span>
@@ -127,7 +127,7 @@ const Transaction023 = ({ companyName }) => (
                         }}
                       >
                         <span className="item-name green">Cash</span>
-                        <span className="item-total">18</span>
+                        <span className="item-total">11</span>
                       </Link>
                     </li>
                     <li>
@@ -138,7 +138,7 @@ const Transaction023 = ({ companyName }) => (
                       <span className="item-name blue">
                         Premiums Receivable
                       </span>
-                      <span className="item-total">2</span>
+                      <span className="item-total">0</span>
                     </li>
                     <li>
                       <span className="item-name blue">
@@ -158,7 +158,7 @@ const Transaction023 = ({ companyName }) => (
                     </li>
                     <li>
                       <span className="item-name blue">IBNR</span>
-                      <span className="item-total">4</span>
+                      <span className="item-total">3</span>
                     </li>
                     <li>
                       <span className="item-name blue">Salary Payable</span>
@@ -208,7 +208,7 @@ const Transaction023 = ({ companyName }) => (
           <ul className="operating-inner-list">
             <li>
               <span className="item-name red">Pharmacies</span>
-              <span className="item-total">0</span>
+              <span className="item-total">6</span>
             </li>
             <li>
               <span className="item-name red">Medical Providers</span>
@@ -236,7 +236,11 @@ const Transaction023 = ({ companyName }) => (
           <h5 className="green">Investing</h5>
           <ul className="investing-inner-list">
             <li>
-              <span className="item-name red">Carslon Properties</span>
+              <span className="item-name red">Carlson Properties</span>
+              <span className="item-total">0</span>
+            </li>
+            <li>
+              <span className="item-name red">US Bank</span>
               <span className="item-total">0</span>
             </li>
           </ul>

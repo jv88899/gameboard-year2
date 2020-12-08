@@ -17,7 +17,7 @@ const Transaction003 = ({ companyName }) => (
             <li>Employers</li>
             <li>Government</li>
           </ul>
-          <span className="item-total">40</span>
+          <span className="item-total">30</span>
         </div>
         <div className="customer-wrapper-wells-fargo-bank">
           <h5 className="green">
@@ -64,17 +64,8 @@ const Transaction003 = ({ companyName }) => (
             <h3>Income Statement</h3>
             <ul>
               <li>
-                <Link
-                  to="/004"
-                  style={{
-                    color: "inherit",
-                    cursor: "default",
-                    textDecoration: "none"
-                  }}
-                >
-                  <span className="item-name">Premium Revenue</span>
-                  <span className="item-total">0</span>
-                </Link>
+                <span className="item-name">Premium Revenue</span>
+                <span className="item-total">0</span>
               </li>
               <li>
                 <span className="item-name red">Pharmacy Expense</span>
@@ -128,7 +119,7 @@ const Transaction003 = ({ companyName }) => (
                   <ul className="balance-sheet-assets">
                     <li>
                       <span className="item-name green">Cash</span>
-                      <span className="item-total">6</span>
+                      <span className="item-total test-active">15</span>
                     </li>
                     <li>
                       <span className="item-name blue">Investments</span>
@@ -138,7 +129,7 @@ const Transaction003 = ({ companyName }) => (
                       <span className="item-name blue">
                         Premiums Receivable
                       </span>
-                      <span className="item-total">12</span>
+                      <span className="item-total">0</span>
                     </li>
                     <li>
                       <span className="item-name blue">
@@ -183,8 +174,19 @@ const Transaction003 = ({ companyName }) => (
                       <span className="item-total">0</span>
                     </li>
                     <li>
-                      <span className="item-name blue">Unearned Premiums</span>
-                      <span className="item-total test-active">0</span>
+                      <Link
+                        to="/004"
+                        style={{
+                          color: "inherit",
+                          cursor: "default",
+                          textDecoration: "none"
+                        }}
+                      >
+                        <span className="item-name blue">
+                          Unearned Premiums
+                        </span>
+                        <span className="item-total">10</span>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -236,8 +238,12 @@ const Transaction003 = ({ companyName }) => (
           <h5 className="green">Investing</h5>
           <ul className="investing-inner-list">
             <li>
-              <span className="item-name red">Carslon Properties</span>
+              <span className="item-name red">Carlson Properties</span>
               <span className="item-total">0</span>
+            </li>
+            <li>
+              <span className="item-name red">US Bank</span>
+              <span className="item-total">6</span>
             </li>
           </ul>
         </div>
