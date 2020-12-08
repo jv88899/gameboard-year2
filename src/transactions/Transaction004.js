@@ -64,8 +64,17 @@ const Transaction004 = ({ companyName }) => (
             <h3>Income Statement</h3>
             <ul>
               <li>
-                <span className="item-name">Premium Revenue</span>
-                <span className="item-total">0</span>
+                <Link
+                  to="/005"
+                  style={{
+                    color: "inherit",
+                    cursor: "default",
+                    textDecoration: "none"
+                  }}
+                >
+                  <span className="item-name">Premium Revenue</span>
+                  <span className="item-total">0</span>
+                </Link>
               </li>
               <li>
                 <span className="item-name red">Pharmacy Expense</span>
@@ -144,17 +153,8 @@ const Transaction004 = ({ companyName }) => (
                   <h5>Liabilities</h5>
                   <ul className="balance-sheet-liabilities">
                     <li>
-                      <Link
-                        to="/005"
-                        style={{
-                          color: "inherit",
-                          cursor: "default",
-                          textDecoration: "none"
-                        }}
-                      >
-                        <span className="item-name blue">Claims Payable</span>
-                        <span className="item-total">1</span>
-                      </Link>
+                      <span className="item-name blue">Claims Payable</span>
+                      <span className="item-total">1</span>
                     </li>
                     <li>
                       <span className="item-name blue">IBNR</span>
