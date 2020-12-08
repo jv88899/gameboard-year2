@@ -207,17 +207,8 @@ const Transaction015 = ({ companyName }) => (
           <h5 className="green">Operating</h5>
           <ul className="operating-inner-list">
             <li>
-              <Link
-                to="/015"
-                style={{
-                  color: "inherit",
-                  cursor: "default",
-                  textDecoration: "none"
-                }}
-              >
-                <span className="item-name red">Pharmacies</span>
-                <span className="item-total">0</span>
-              </Link>
+              <span className="item-name red">Pharmacies</span>
+              <span className="item-total">0</span>
             </li>
             <li>
               <span className="item-name red">Medical Providers</span>
