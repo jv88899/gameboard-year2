@@ -22,8 +22,8 @@ const Transaction028 = ({ companyName }) => (
         <div className="customer-wrapper-wells-fargo-bank">
           <h5 className="green">
             Wells Fargo <br /> Bank
-          </h5>
-          <span className="item-total">5</span>
+          </h5><Link to='/029' style={{color: 'inherit', cursor: 'default', textDecoration: 'none'}}>
+          <span className="item-total">5</span></Link>
         </div>
         <div className="customer-wrapper-us-bank">
           <h5 className="green">US Bank</h5>
