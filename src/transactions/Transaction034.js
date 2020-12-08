@@ -210,8 +210,17 @@ const Transaction034 = ({ companyName }) => (
               <span className="item-total">2</span>
             </li>
             <li>
-              <span className="item-name red">Brokers</span>
-              <span className="item-total">0</span>
+              <Link
+                to="/035"
+                style={{
+                  color: "inherit",
+                  cursor: "default",
+                  textDecoration: "none"
+                }}
+              >
+                <span className="item-name red">Brokers</span>
+                <span className="item-total">0</span>
+              </Link>
             </li>
             <li>
               <span className="item-name red">Vendors</span>
