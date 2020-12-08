@@ -238,7 +238,7 @@ const Transaction003 = ({ companyName }) => (
           <h5 className="green">Investing</h5>
           <ul className="investing-inner-list">
             <li>
-              <span className="item-name red">Carslon Properties</span>
+              <span className="item-name red">Carlson Properties</span>
               <span className="item-total">0</span>
             </li>
             <li>
