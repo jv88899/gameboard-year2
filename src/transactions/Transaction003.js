@@ -27,7 +27,7 @@ const Transaction003 = ({ companyName }) => (
         </div>
         <div className="customer-wrapper-us-bank">
           <h5 className="green">US Bank</h5>
-          <span className="item-total">4</span>
+          <span className="item-total">10</span>
         </div>
       </div>
       {/* income statement and balance sheet section */}
@@ -196,7 +196,7 @@ const Transaction003 = ({ companyName }) => (
               <h5>Net Assets</h5>
               <div className="net-assets-inner-wrapper">
                 <span className="item-total">0</span>
-                <span className="item-total">4</span>
+                <span className="item-total">2</span>
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@ const Transaction003 = ({ companyName }) => (
             </li>
             <li>
               <span className="item-name red">US Bank</span>
-              <span className="item-total">6</span>
+              <span className="item-total">0</span>
             </li>
           </ul>
         </div>
